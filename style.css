@@ -1,0 +1,78 @@
+*{
+    margin:0% ;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    line-height: 1.5;
+    color: rgb(212, 207, 207)
+}
+
+header{
+  background:rgb(43, 37, 37);
+    padding: 1rem;
+    text-align: justify ;
+}
+
+.container{
+    margin: auto;
+    width: auto;
+    overflow: auto;
+}
+
+#my-form{
+    padding: 2rem;
+    background:rgb(43, 37, 37) 
+  }
+  #my-form label{
+    display: block;
+  }
+  
+  #my-form input[type='text']{
+    font-size: 25px;
+    display: inline;
+    width: 60.75%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: rgb(87,74,74);
+  }
+
+  #my-form button[type='submit']{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .btn{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    display: inline-block;
+    width: 15%;
+    padding: 3%;
+    border: 1px solid #ccc;
+    background: rgb(87, 74, 74);
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  
+  .btn:hover{
+    background: #444;
+  }
+  
+  .bg-dark {
+    background: #333;
+    color: #fff;
+  }
+  
+  .error {
+    background: rgb(255, 0, 0);
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+  }

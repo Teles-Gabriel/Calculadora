@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header><h1>Calculadora</h1></header>
+        <section class="container">
+            <form id="my-form">
+                <div>
+                    <!-- Inicialmente pensei em colocar duas caixas para o input e usar somente os valores inseridos para realizar operações simples-->
+                    <label for="number1"></label> 
+                    <input type="text" id="number1">
+                </div>
+                <div>
+                    <input class="btn" type="button" value="C">
+                    <input class="btn" type="button" value="()">
+                    <input class="btn" type="button" value="%">
+                    <input class="btn" type="button" value="/">
+                </div>
+                <div>
+                    <input class="btn" type="button" value="9">
+                    <input class="btn" type="button" value="8">
+                    <input class="btn" type="button" value="7">
+                    <input class="btn" type="button" value="x">
+                </div>
+                <div>
+                    <input class="btn" type="button" value="6">
+                    <input class="btn" type="button" value="5">
+                    <input class="btn" type="button" value="4">
+                    <input class="btn" type="button" value="-">
+                </div>
+                <div>
+                    <input class="btn" type="button" value="3">
+                    <input class="btn" type="button" value="2">
+                    <input class="btn" type="button" value="1">
+                    <input class="btn" type="button" value="+">
+                </div>
+                <div>
+                    <input class="btn" type="button" value="+/-">
+                    <input class="btn" type="button" value="0">
+                    <input class="btn" type="button" value=".">
+                    <input class="btn" type="button" value="=">
+                </div>
+            </form>
+            <ul id="users"></ul>
+        </section>
+        <script src="main.js"></script>
+    </body>
+</html>
