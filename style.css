@@ -60,8 +60,42 @@ header{
     border-radius: 5px;
     margin: 5px 0;
   }
+
+  .btn_symbol_basic{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    display: inline-block;
+    width: 15%;
+    padding: 3%;
+    border: 1px solid #ccc;
+    background: rgb(0, 0, 0); 
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+
+  .btn_symbol_basic2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    display: inline-block;
+    width: 15%;
+    padding: 3%;
+    border: 1px solid #ccc;
+    background: rgb(29, 27, 27);
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0; 
+  }
   
   .btn:hover{
+    background: #444;
+  }
+
+  .btn_symbol_basic:hover{
+    background: #444;
+  }
+
+  .btn_symbol_basic2:hover{
     background: #444;
   }
   
