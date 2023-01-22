@@ -2,111 +2,104 @@
     margin:0% ;
     padding: 0%;
     box-sizing: border-box;
-}
-body{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    line-height: 1.5;
-    color: rgb(212, 207, 207)
-}
-
-header{
-  background:rgb(43, 37, 37);
-    padding: 1rem;
-    text-align: justify ;
-}
-
-.container{
-    margin: auto;
-    width: auto;
-    overflow: auto;
-}
-
-#my-form{
-    padding: 2rem;
-    background:rgb(43, 37, 37) 
   }
-  #my-form label{
-    display: block;
-  }
+  body{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+      line-height: 1.5;
+      color: rgb(212, 207, 207)
+    } 
+
+    header{
+      background:rgb(43, 37, 37);
+      padding: 1rem;
+      text-align: justify ;
+    }
+
+
+
+      .fundo{
+        padding: 2rem;
+        background:rgb(43, 37, 37) 
+      }
+
+      #tela {
+        display: flex;
+        justify-content: flex-end;
+        background: rgb(87,74,74);
+        color: #fff;
+        font-size: 25px;
+        padding: 15px;
+        height: 70px;
+        width: 60%;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+      }
+
+      .box{
+        display: flex;
+        flex-wrap: nowrap ;
+      }
+
+      .btn{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: xx-large;
+        width: 15%;
+        padding: 3%;
+        border: 1px solid #ccc;
+        background: rgb(87, 74, 74);
+        color: #fff;
+        border-radius: 5px;
+        margin: 5px 0;
+      }
+
+      .btn_symbol_basic{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: xx-large;
+        width: 15%;
+        padding: 3%;
+        border: 1px solid #ccc;
+        background: rgb(0, 0, 0); 
+        color: #fff;
+        border-radius: 5px;
+        margin: 5px 0;
+      }
+
+      .btn_symbol_basic2{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: xx-large;
+        width: 15%;
+        padding: 3%;
+        border: 1px solid #ccc;
+        background: rgb(29, 27, 27);
+        color: #fff;
+        border-radius: 5px;
+        margin: 5px 0; 
+      }
   
-  #my-form input[type='text']{
-    font-size: 25px;
-    display: inline;
-    width: 60.75%;
-    padding: 20px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    background: rgb(87,74,74);
-  }
+      .btn:hover{
+        background: #444;
+      }
 
-  #my-form button[type='submit']{
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
+      .btn_symbol_basic:hover{
+        background: #444;
+      }
 
-  .btn{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: xx-large;
-    display: inline-block;
-    width: 15%;
-    padding: 3%;
-    border: 1px solid #ccc;
-    background: rgb(87, 74, 74);
-    color: #fff;
-    border-radius: 5px;
-    margin: 5px 0;
-  }
+      .btn_symbol_basic2:hover{
+        background: #444;
+      }
 
-  .btn_symbol_basic{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: xx-large;
-    display: inline-block;
-    width: 15%;
-    padding: 3%;
-    border: 1px solid #ccc;
-    background: rgb(0, 0, 0); 
-    color: #fff;
-    border-radius: 5px;
-    margin: 5px 0;
-  }
+      .btn:active{
+        box-shadow: box-shadow 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+        transform: translateY(4px);
+      }
 
-  .btn_symbol_basic2{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: xx-large;
-    display: inline-block;
-    width: 15%;
-    padding: 3%;
-    border: 1px solid #ccc;
-    background: rgb(29, 27, 27);
-    color: #fff;
-    border-radius: 5px;
-    margin: 5px 0; 
-  }
-  
-  .btn:hover{
-    background: #444;
-  }
+      .btn_symbol_basic:active{
+        box-shadow: box-shadow 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+        transform: translateY(4px);
+      }
 
-  .btn_symbol_basic:hover{
-    background: #444;
-  }
-
-  .btn_symbol_basic2:hover{
-    background: #444;
-  }
-  
-  .bg-dark {
-    background: #333;
-    color: #fff;
-  }
-  
-  .error {
-    background: rgb(255, 0, 0);
-    color: #fff;
-    padding: 5px;
-    margin: 5px;
-  }
+      .btn_symbol_basic2:active{
+        box-shadow: box-shadow 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+        transform: translateY(4px);
+      }
