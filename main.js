@@ -20,8 +20,7 @@ function calcular()
         document.getElementById('tela').innerHTML = eval(resultado);
     }
     else
-    {
-        document.getElementById('tela').innerHTML = "Nada..."
+    { 
+        document.getElementById('tela').innerHTML = ""
     }
 }
-//Testando commit
